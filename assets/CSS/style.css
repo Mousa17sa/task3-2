@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* start header */
+
+/* start nav */
+nav{
+    height: 60px;
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    position: fixed;
+}
+.nav1{
+    width: 57%;
+}
+.nav2{
+    width: 42%;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    list-style: none;
+}
+nav ul{
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/*end nav*/
+
+/*start hero*/
+
+.hero{
+    height: 100vh;
+    background-image: url(../img/univercity.jpeg);
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+}
+/*end hero*/
+
+/*end header*/
+
+/*start main*/
+
+/*common properties for all sections*/
+.sec{
+    min-height: 100vh;
+    padding: 3%;
+    gap: 120px;
+}
+
+.bg-color{
+    background-color:rgb(252, 212, 190);
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+}
+.f-center{
+    justify-content: center;
+    align-items: center;
+}
+.f-around{
+    justify-content: space-around;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-col{
+    flex-direction: column;
+} 
+.gap80{
+    gap: 80px;
+}
+.gap25{
+    gap: 25px;
+}
+
+/*end common properties*/
+
+/*start specializations*/
+
+.spec{
+    width: 215px; text-align: center;
+}
+
+/*end specializations*/
+
+/*start our teachers*/
+
+.our{
+    width: 260px;
+    text-align: center;
+}
+.our-img{
+    width: 170px;
+}
+
+/*end  our teachers*/
+
+/*start plans*/
+
+.pl-img{
+    width: 260px;
+}
+
+.pl-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(245, 222, 179);
+    width:300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.pl-ul{
+    background-color:rgb(253, 233,140);
+    border-radius: 6px;
+    list-style: none;
+    font-size: 15px;
+    padding: 5px;
+}
+.pl-card h2{
+    text-align: center;
+} 
+/*end plans*/
+
+/*start contact-us*/
+#contact-us{
+    height: 70vh;
+    padding: 3%;
+    gap: 50px;
+}
+form{
+    width: 100%;
+}
+.con-input{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.width{
+    width: 250px;
+}
+/*end contact-us*/
+
+/*end main*/
+
+/*start footer*/
+
+/*start contact-info*/
+#contact-info{
+    height: 30vh;
+    gap: 50px;
+    text-align: center;
+}
+
+/*end contact-info*/
+
+/*start foot*/
+
+ .foot-div{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+.foot-div a{
+    text-decoration: none;
+    color: white;
+}
+
+/*end foot*/
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/*end footer*/
+
+@media screen and (max-width : 655px) {
+    .nav1{
+        width: 100%;
+    }
+    .nav2{
+        width: 100%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 15;
+    }
+}
+@media screen and  (max-width : 743px){
+    .pl-card{
+        width: 220px;
+        height: 350px;
+        padding: 20px;
+    }
+    .pl-img{
+        width: 180px;
+    }
+
+}
